@@ -1,5 +1,4 @@
-
-urce 'https://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails',        '5.1.4'
 gem 'puma',         '3.9.1'
@@ -27,4 +26,4 @@ group :production do
 end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]i
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
